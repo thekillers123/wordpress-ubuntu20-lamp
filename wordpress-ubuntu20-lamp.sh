@@ -26,7 +26,7 @@ sudo apt -y install mariadb-server mariadb-client most tree zip unzip
 #Download and unzip Wordpress to apache directory
 sudo wget https://wordpress.org/latest.zip
 cd /var/www
-sudo unzip /home/ubuntu/latest.zip
+sudo unzip /home/latest.zip
 sudo rm -Rf html
 sudo mv wordpress html
 
